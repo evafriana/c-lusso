@@ -1,0 +1,141 @@
+body {
+  background-color: #b3ccff;
+}
+
+li {
+  font: 15px Verdana;
+}
+
+b {
+  font: 15px Verdana;
+  font-weight: bold;
+}
+
+a {
+  font: 15px Verdana;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1 {
+  font: 15px Verdana;
+}
+
+#nom {
+  font: 22px Verdana;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#table1 {
+  border: Opx;
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+#table2 {
+  border: 10px;
+  background-color: #00e673;
+  margin: auto;
+  width: 1000px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+#table3 {
+  border: 0px;
+}
+
+#td1 {
+  border-style: solid;
+  border-color: white;
+  border-width: 8px;
+  width: 300px;
+}
+
+#td2 {
+  justify-content: center;
+  width: 500px;
+}
+
+#td3 {
+  justify-content: center;
+  color: #ffffff;
+  width: 300px;
+}
+
+#adresse1 {
+  font: 13px Verdana;
+}
+
+#adresse2 {
+  font: 15px Verdana;
+}
+
+#photo {
+  border: none;
+  width: 260px;
+  height: 195px;
+  margin: 20px 20px 20px 80px;
+}
+
+#titre {
+  font: 20px Verdana;
+  font-weight: bold;
+  color: #009933;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  background-color: #00e673;
+}
+.box-1 {
+  text-align: center;
+  margin: auto;
+}
+.box-2 {
+  margin: auto;
+}
+@media (min-width: 100px) and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100vw;
+    background-size: cover;
+    background-position: center;
+  }
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+#adresse1 b {
+  color: #ffffff;
+}
