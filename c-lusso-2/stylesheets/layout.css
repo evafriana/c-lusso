@@ -133,8 +133,7 @@ a.active {
   background: #74a57f;
   min-height: 300px;
 }
-.rzm_profile_nav {
-}
+
 /*===== .logo =====*/
 .logo img {
   margin-top: -150px;
@@ -214,20 +213,6 @@ h1.title {
   font-weight: 700;
   padding: 135px 0 36px 0;
 }
-.rzm_progress_bar {
-}
-.rzm_progress_bar h4 {
-  color: #808080 !important;
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-}
-.rzm_progress_bar .progress {
-  height: 3px !important;
-  margin-bottom: 31px;
-}
-.rzm_progress_bar .progress-bar {
-  background: #0abfbf;
-}
 .rzm_perchantage {
   margin-top: -30px;
   font-size: 16px;
@@ -248,6 +233,11 @@ h1.title {
 .about {
   padding-right: 0px !important;
   padding-left: 0px !important;
+}
+.email {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
 }
 .about_info {
   line-height: 36px;
