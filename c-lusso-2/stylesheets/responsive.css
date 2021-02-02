@@ -54,13 +54,14 @@
     padding: 90px 0 18px 0;
     font-size: 24px;
   }
-
+  .td {
+    margin-top: 40px;
+  }
   .rzm_outside-header {
     width: 100%;
     background: #74a57f;
     min-height: 178px;
   }
-
   .rzm_client_img img {
     margin: 0 auto;
     display: block;
